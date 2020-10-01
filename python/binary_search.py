@@ -17,9 +17,6 @@ return binarySearch(sortedList,low,mid-1,x)
 else:
 return binarySearch(sortedList, mid+1, high,x)
 else:
-
-5
-
 return -1
 x=int(input('enter element to search \n'))
 
