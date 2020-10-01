@@ -9,6 +9,9 @@ if high>=low:
 mid=(high+low)//2
 if sortedList[mid]==x:
 return mid
+
+
+
 elif sortedList[mid]>x:
 return binarySearch(sortedList,low,mid-1,x)
 else:
